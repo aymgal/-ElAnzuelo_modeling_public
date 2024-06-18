@@ -1,0 +1,1557 @@
+{
+  "coordinates_origin": {
+    "dec": "-49d15m06.48504s",
+    "ra": "01h02m49.388424s"
+  },
+  "cosmology": {
+    "H0": 73.0,
+    "Om0": 0.3,
+    "astropy_name": "FlatLambdaCDM"
+  },
+  "instrument": {
+    "band": "F444W",
+    "name": "JWST/NIRCam",
+    "pixel_size": 0.029999999999999985,
+    "psf": {
+      "description": "PSF provided with the mock",
+      "pixels": {
+        "field_of_view_x": [
+          0,
+          4.829999999999997
+        ],
+        "field_of_view_y": [
+          0,
+          4.829999999999997
+        ],
+        "fits_file": {
+          "path": "psf.fits"
+        },
+        "num_pix_x": 161,
+        "num_pix_y": 161
+      },
+      "type": "PixelatedPSF"
+    },
+    "readout_noise": 0.0
+  },
+  "lensing_entities": [
+    {
+      "light_model": [
+        {
+          "id": "0-galaxy-light-0-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-I_eff",
+              "point_estimate": {
+                "value": 736.9580078125
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-center_x",
+              "point_estimate": {
+                "value": 0.15869998335838315
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-center_y",
+              "point_estimate": {
+                "value": -0.08735280632972713
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-n",
+              "point_estimate": {
+                "value": 4.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-phi",
+              "point_estimate": {
+                "value": -39.0984831332224
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-q",
+              "point_estimate": {
+                "value": 0.7349725237113784
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "0-galaxy-light-0-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.7011776081267863
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        },
+        {
+          "id": "0-galaxy-light-1-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-I_eff",
+              "point_estimate": {
+                "value": 2162.478759765625
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-center_x",
+              "point_estimate": {
+                "value": 0.15869998335838315
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-center_y",
+              "point_estimate": {
+                "value": -0.08735280632972713
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-n",
+              "point_estimate": {
+                "value": 1.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-phi",
+              "point_estimate": {
+                "value": -39.0984831332224
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-q",
+              "point_estimate": {
+                "value": 0.6900128830786522
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "0-galaxy-light-1-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.1721019972104434
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        }
+      ],
+      "mass_model": [
+        {
+          "id": "0-galaxy-mass-0-PEMD",
+          "parameters": {
+            "center_x": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-center_x",
+              "point_estimate": {
+                "value": 0.16712282143086077
+              },
+              "posterior_stats": {
+                "mean": 0.16332528493260814,
+                "median": 0.1632975866643358,
+                "percentile_16th": 0.15966921722876407,
+                "percentile_84th": 0.16697096632577507
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-center_y",
+              "point_estimate": {
+                "value": -0.06925327486041136
+              },
+              "posterior_stats": {
+                "mean": -0.07635475194772028,
+                "median": -0.07625235615646181,
+                "percentile_16th": -0.08626215360598882,
+                "percentile_84th": -0.06658855134704554
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "gamma": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-gamma",
+              "point_estimate": {
+                "value": 2.2168795411462634
+              },
+              "posterior_stats": {
+                "mean": 2.2291306968477116,
+                "median": 2.2288683379697325,
+                "percentile_16th": 2.1768216762755594,
+                "percentile_84th": 2.2822743931323166
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-phi",
+              "point_estimate": {
+                "value": -52.95118900740988
+              },
+              "posterior_stats": {
+                "mean": 127.72574524423243,
+                "median": 127.74057525266538,
+                "percentile_16th": 123.13447510304708,
+                "percentile_84th": 132.29110107138624
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-q",
+              "point_estimate": {
+                "value": 0.6878849116507031
+              },
+              "posterior_stats": {
+                "mean": 0.6882239988992346,
+                "median": 0.6881937668986156,
+                "percentile_16th": 0.6806302307195142,
+                "percentile_84th": 0.6960237528878166
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_E": {
+              "fixed": false,
+              "id": "0-galaxy-mass-0-PEMD-theta_E",
+              "point_estimate": {
+                "value": 0.9341901532026672
+              },
+              "posterior_stats": {
+                "mean": 0.9352604190678043,
+                "median": 0.9352707954811497,
+                "percentile_16th": 0.9306542211313112,
+                "percentile_84th": 0.939861800158983
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "PEMD"
+        }
+      ],
+      "name": "El Anzuelo, lens L1",
+      "redshift": 0.872,
+      "type": "Galaxy"
+    },
+    {
+      "light_model": [
+        {
+          "id": "1-galaxy-light-0-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-I_eff",
+              "point_estimate": {
+                "value": 811.1240234375
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-center_x",
+              "point_estimate": {
+                "value": 0.9206777661934265
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-center_y",
+              "point_estimate": {
+                "value": 1.1728174248722392
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-n",
+              "point_estimate": {
+                "value": 4.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-phi",
+              "point_estimate": {
+                "value": -68.93562342543282
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-q",
+              "point_estimate": {
+                "value": 0.43917729120664445
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "1-galaxy-light-0-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.3146267444480973
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        },
+        {
+          "id": "1-galaxy-light-1-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-I_eff",
+              "point_estimate": {
+                "value": 2260.467041015625
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-center_x",
+              "point_estimate": {
+                "value": 0.9206777661934265
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-center_y",
+              "point_estimate": {
+                "value": 1.1728174248722392
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-n",
+              "point_estimate": {
+                "value": 1.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-phi",
+              "point_estimate": {
+                "value": -68.93562342543282
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-q",
+              "point_estimate": {
+                "value": 0.990319394890108
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "1-galaxy-light-1-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.07373783925202387
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        }
+      ],
+      "mass_model": [
+        {
+          "id": "1-galaxy-mass-0-PEMD",
+          "parameters": {
+            "center_x": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-center_x",
+              "point_estimate": {
+                "value": 0.8941822075168578
+              },
+              "posterior_stats": {
+                "mean": 0.8888659269378346,
+                "median": 0.8890130483419891,
+                "percentile_16th": 0.8772536496178651,
+                "percentile_84th": 0.9003280660218393
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-center_y",
+              "point_estimate": {
+                "value": 1.174926047874626
+              },
+              "posterior_stats": {
+                "mean": 1.171945482602526,
+                "median": 1.1719369770185022,
+                "percentile_16th": 1.1678542415170088,
+                "percentile_84th": 1.1760606173378794
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "gamma": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-gamma",
+              "point_estimate": {
+                "value": 2.216418804113386
+              },
+              "posterior_stats": {
+                "mean": 2.2055584806018684,
+                "median": 2.2062620249444675,
+                "percentile_16th": 2.168229610972885,
+                "percentile_84th": 2.242187957987142
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-phi",
+              "point_estimate": {
+                "value": -67.83974854198304
+              },
+              "posterior_stats": {
+                "mean": 112.75199182022853,
+                "median": 112.73673612147172,
+                "percentile_16th": 111.16965646668392,
+                "percentile_84th": 114.33699972797643
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-q",
+              "point_estimate": {
+                "value": 0.7257370442708307
+              },
+              "posterior_stats": {
+                "mean": 0.7232576157151127,
+                "median": 0.7231796690797736,
+                "percentile_16th": 0.7146462094620486,
+                "percentile_84th": 0.7319089931316209
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_E": {
+              "fixed": false,
+              "id": "1-galaxy-mass-0-PEMD-theta_E",
+              "point_estimate": {
+                "value": 0.433404275954124
+              },
+              "posterior_stats": {
+                "mean": 0.43518149582202403,
+                "median": 0.4352077752764695,
+                "percentile_16th": 0.42359308439724236,
+                "percentile_84th": 0.44678097451424315
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "PEMD"
+        }
+      ],
+      "name": "El Anzuelo, lens L2",
+      "redshift": 0.872,
+      "type": "Galaxy"
+    },
+    {
+      "light_model": [
+        {
+          "id": "2-galaxy-light-0-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-I_eff",
+              "point_estimate": {
+                "value": 2260.467041015625
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-center_x",
+              "point_estimate": {
+                "value": 0.9206777661934265
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-center_y",
+              "point_estimate": {
+                "value": 1.1728174248722392
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-n",
+              "point_estimate": {
+                "value": 1.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-phi",
+              "point_estimate": {
+                "value": -68.93562342543282
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-q",
+              "point_estimate": {
+                "value": 0.990319394890108
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-0-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.07373783925202387
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        },
+        {
+          "id": "2-galaxy-light-1-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-I_eff",
+              "point_estimate": {
+                "value": 4575.75
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-center_x",
+              "point_estimate": {
+                "value": -2.9663891400917644
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-center_y",
+              "point_estimate": {
+                "value": -1.6941412227221897
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-n",
+              "point_estimate": {
+                "value": 4.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-phi",
+              "point_estimate": {
+                "value": 40.603925272204854
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-q",
+              "point_estimate": {
+                "value": 0.5569287680775785
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-1-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.1065908312594808
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        },
+        {
+          "id": "2-galaxy-light-2-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-I_eff",
+              "point_estimate": {
+                "value": 2881.640380859375
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-center_x",
+              "point_estimate": {
+                "value": -2.9663891400917644
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-center_y",
+              "point_estimate": {
+                "value": -1.6941412227221897
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-n",
+              "point_estimate": {
+                "value": 1.0
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-phi",
+              "point_estimate": {
+                "value": 40.603925272204854
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-q",
+              "point_estimate": {
+                "value": 0.25812104235217936
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "2-galaxy-light-2-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.16099825941190427
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        }
+      ],
+      "mass_model": [
+        {
+          "id": "2-galaxy-mass-0-SIE",
+          "parameters": {
+            "center_x": {
+              "fixed": false,
+              "id": "2-galaxy-mass-0-SIE-center_x",
+              "point_estimate": {
+                "value": -2.9663891400917644
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "2-galaxy-mass-0-SIE-center_y",
+              "point_estimate": {
+                "value": -1.6941412227221897
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "2-galaxy-mass-0-SIE-phi",
+              "point_estimate": {
+                "value": 40.603925272204854
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "2-galaxy-mass-0-SIE-q",
+              "point_estimate": {
+                "value": 0.6027067075809625
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_E": {
+              "fixed": false,
+              "id": "2-galaxy-mass-0-SIE-theta_E",
+              "point_estimate": {
+                "value": 0.34132320806384486
+              },
+              "posterior_stats": {
+                "mean": 0.3209188618761074,
+                "median": 0.3210909980566421,
+                "percentile_16th": 0.29188102069927974,
+                "percentile_84th": 0.3496751993957167
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "SIE"
+        }
+      ],
+      "name": "El Anzuelo, lens L3",
+      "redshift": 0.872,
+      "type": "Galaxy"
+    },
+    {
+      "light_model": [
+        {
+          "id": "3-galaxy-light-0-Sersic",
+          "parameters": {
+            "I_eff": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-I_eff",
+              "point_estimate": {
+                "value": 718.4622802734375
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_x": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-center_x",
+              "point_estimate": {
+                "value": -2.9663891400917644
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "center_y": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-center_y",
+              "point_estimate": {
+                "value": -1.6941412227221897
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "n": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-n",
+              "point_estimate": {
+                "value": 0.5697269360534847
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-phi",
+              "point_estimate": {
+                "value": 40.603925272204854
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "q": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-q",
+              "point_estimate": {
+                "value": 0.9930703161221492
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "theta_eff": {
+              "fixed": false,
+              "id": "3-galaxy-light-0-Sersic-theta_eff",
+              "point_estimate": {
+                "value": 0.05407476011207664
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Sersic"
+        }
+      ],
+      "mass_model": [],
+      "name": "El Anzuelo, sky background",
+      "redshift": 0.872,
+      "type": "Galaxy"
+    },
+    {
+      "mass_model": [
+        {
+          "id": "4-massfield-mass-0-ExternalShear",
+          "parameters": {
+            "gamma_ext": {
+              "fixed": false,
+              "id": "4-massfield-mass-0-ExternalShear-gamma_ext",
+              "point_estimate": {
+                "value": 0.06655479615081226
+              },
+              "posterior_stats": {
+                "mean": 0.0034308029130091923,
+                "median": 0.0034272111584713444,
+                "percentile_16th": 0.0027512378419242657,
+                "percentile_84th": 0.0041113507215742645
+              },
+              "prior": {
+                "type": null
+              }
+            },
+            "phi_ext": {
+              "fixed": false,
+              "id": "4-massfield-mass-0-ExternalShear-phi_ext",
+              "point_estimate": {
+                "value": -66.29125762427726
+              },
+              "posterior_stats": {
+                "mean": 92.35590643377776,
+                "median": 92.3548087226167,
+                "percentile_16th": 92.13465306989178,
+                "percentile_84th": 92.5771932581081
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "ExternalShear"
+        }
+      ],
+      "name": "El Anzuelo, ext shear",
+      "redshift": 0.872,
+      "type": "MassField"
+    },
+    {
+      "light_model": [],
+      "mass_model": [
+        {
+          "id": "5-galaxy-mass-0-PixelatedRegularGridFullyDefined",
+          "parameters": {
+            "pixels": {
+              "field_of_view_x": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "field_of_view_y": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "fits_file": {
+                "path": "model-bestfit-Host_cluster_0_pixels.fits"
+              },
+              "id": "5-galaxy-mass-0-PixelatedRegularGridFullyDefined-pixels",
+              "num_pix_x": 535,
+              "num_pix_y": 535
+            },
+            "pixels_derivative": {
+              "field_of_view_x": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "field_of_view_y": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "fits_file": {
+                "path": "model-bestfit-Host_cluster_0_pixels_derivative.fits"
+              },
+              "id": "5-galaxy-mass-0-PixelatedRegularGridFullyDefined-pixels_derivative",
+              "num_pix_x": 535,
+              "num_pix_y": 535,
+              "num_stack": 2
+            },
+            "pixels_hessian": {
+              "field_of_view_x": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "field_of_view_y": [
+                -5.219999999999997,
+                5.219999999999997
+              ],
+              "fits_file": {
+                "path": "model-bestfit-Host_cluster_0_pixels_hessian.fits"
+              },
+              "id": "5-galaxy-mass-0-PixelatedRegularGridFullyDefined-pixels_hessian",
+              "num_pix_x": 214,
+              "num_pix_y": 214,
+              "num_stack": 3
+            }
+          },
+          "type": "PixelatedRegularGridFullyDefined"
+        }
+      ],
+      "name": "Host cluster",
+      "redshift": 0.872,
+      "type": "Galaxy"
+    },
+    {
+      "light_model": [
+        {
+          "id": "6-galaxy-light-0-PixelatedRegularGrid",
+          "parameters": {
+            "pixels": {
+              "field_of_view_x": [
+                -27.991414024714814,
+                -25.98008340895757
+              ],
+              "field_of_view_y": [
+                -6.389713823823888,
+                -4.378383208066639
+              ],
+              "fits_file": {
+                "path": "model-bestfit-source_0.fits"
+              },
+              "id": "6-galaxy-light-0-PixelatedRegularGrid-pixels",
+              "num_pix_x": 100,
+              "num_pix_y": 100
+            }
+          },
+          "type": "PixelatedRegularGrid"
+        }
+      ],
+      "mass_model": [],
+      "name": "El Anzuelo, source",
+      "redshift": 2.291,
+      "type": "Galaxy"
+    },
+    {
+      "light_model": [
+        {
+          "id": "7-galaxy-light-0-Uniform",
+          "parameters": {
+            "A": {
+              "fixed": false,
+              "id": "7-galaxy-light-0-Uniform-A",
+              "point_estimate": {
+                "value": 0.00701032291773813
+              },
+              "posterior_stats": {
+                "mean": null,
+                "median": null,
+                "percentile_16th": null,
+                "percentile_84th": null
+              },
+              "prior": {
+                "type": null
+              }
+            }
+          },
+          "type": "Uniform"
+        }
+      ],
+      "mass_model": [],
+      "name": "El Anzuelo, source background",
+      "redshift": 2.291,
+      "type": "Galaxy"
+    }
+  ],
+  "likelihoods": [
+    {
+      "mask": {
+        "field_of_view_x": [
+          -5.219999999999997,
+          5.219999999999997
+        ],
+        "field_of_view_y": [
+          -5.219999999999997,
+          5.219999999999997
+        ],
+        "fits_file": {
+          "path": "mask-likelihood.fits"
+        },
+        "num_pix_x": 348,
+        "num_pix_y": 348
+      },
+      "type": "ImagingDataLikelihood"
+    }
+  ],
+  "meta": {
+    "best_fit_reduced_chi2": 224.64035847898154,
+    "chain_file_name": "coolest-herculens-ift-blind_pemd_source2-samples.csv",
+    "coolest.__version__": "0.1.9",
+    "model_choice": "Herculens+NIFTy model of JWST/NIRCam/F444W observations of El Anzuelo",
+    "modeling_code": "Herculens (v0.0.1)"
+  },
+  "mode": "MAP",
+  "observation": {
+    "exposure_time": {
+      "field_of_view_x": [
+        -5.219999999999997,
+        5.219999999999997
+      ],
+      "field_of_view_y": [
+        -5.219999999999997,
+        5.219999999999997
+      ],
+      "fits_file": {
+        "path": "exposure_map"
+      },
+      "num_pix_x": 0,
+      "num_pix_y": 0
+    },
+    "mag_sky_brightness": null,
+    "mag_zero_point": null,
+    "noise": {
+      "noise_map": {
+        "field_of_view_x": [
+          -5.219999999999997,
+          5.219999999999997
+        ],
+        "field_of_view_y": [
+          -5.219999999999997,
+          5.219999999999997
+        ],
+        "fits_file": {
+          "path": "noise_map.fits"
+        },
+        "num_pix_x": 348,
+        "num_pix_y": 348
+      },
+      "type": "NoiseMap"
+    },
+    "pixels": {
+      "field_of_view_x": [
+        -5.219999999999997,
+        5.219999999999997
+      ],
+      "field_of_view_y": [
+        -5.219999999999997,
+        5.219999999999997
+      ],
+      "fits_file": {
+        "path": "obs.fits"
+      },
+      "num_pix_x": 348,
+      "num_pix_y": 348
+    }
+  },
+  "standard": "COOLEST"
+}
